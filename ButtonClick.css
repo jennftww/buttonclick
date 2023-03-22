@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/** Blueprint **/
+
+body{
+    background-color: white;
+}
+
+.whole{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    margin-left: 25%;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.right {
+    width: 30%;
+}
+
+/** Navigation **/
+
+.nav{
+    background-color: silver;
+    width: 60%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.nav-links {
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.dojo {
+    margin-right: 5%;
+}
+
+.search input {
+    height: 25px;
+    width: 350px;
+    font-size: 16px;
+}
+
+.log {
+    height: 25px;
+    width: 75px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 3px 3px black;
+}
+
+/** Left Containers **/
+
+.container {
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 5%;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.interior-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.interior-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.noun {
+    position: relative;
+    bottom: 15px;
+    font-size: larger;
+}
+
+.plural {
+    position: relative;
+    bottom: 25px;
+}
+
+.part {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.button1 {
+    height: 35px;
+    width: 100px;
+    background-color: rgba(255, 255, 0, 0.829);
+    color: black;
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 3px 3px black;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+}
+
+/** Lonely Container **/
+
+.container2 {
+    height: 150px;
+    border: 4px solid black;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.part2 {
+    font-size: 1.80rem;
+    margin-bottom: 5px;
+}
+
+.definition {
+    height: 35px;
+    width: 100%;
+    background-color: rgb(80, 150, 80);
+    color: black;
+    border: 2px solid black;
+    font-size: 20px;
+    box-shadow: 3px 3px black;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
